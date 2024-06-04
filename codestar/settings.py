@@ -33,7 +33,7 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = [
-    '8000-trxdave-djangoblog-tmvf3671x1b.ws-eu114.gitpod.io', '.herokuapp.com']
+    '8000-trxdave-djangoblog-rrhgwg5ghos.ws-eu114.gitpod.io', '.herokuapp.com']
 
 
 # Application definition
