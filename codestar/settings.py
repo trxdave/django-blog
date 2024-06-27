@@ -35,7 +35,7 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = [
-    '8000-trxdave-djangoblog-rrhgwg5ghos.ws-eu114.gitpod.io', '.herokuapp.com']
+    '8000-trxdave-djangoblog-p24zu540qf1.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -111,7 +111,7 @@ WSGI_APPLICATION = 'codestar.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+    'default': dj_database_url.parse(os.getenv("DATABASE_URL"))
 }
 
 if 'test' in sys.argv:
